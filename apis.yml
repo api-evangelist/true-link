@@ -1,8 +1,24 @@
 aid: true-link
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/true-link.png
 name: True Link
-description: 'True Link is a company surfaced as a portfolio company of qed-investors, y-combinator and
-  added to the API Evangelist network as a stub for enrichment. Sector: insurtech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'True Link Financial provides financial management tools for people with complex needs and
+  their caregivers. Its offerings include the True Link Visa prepaid card with caregiver-configurable
+  spending controls and transaction monitoring, investment and trust administration for representative
+  payees, fiduciaries, guardians and non-profit trustees, white-label family banking for financial
+  institutions, and AI-powered merchant fraud prevention (Retina AI). The company reports serving more
+  than 250,000 families. No public developer API or documentation surface was found at the time of
+  enrichment; this profile is maintained as a company record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/true-link/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Insurtech
+- Fintech
+- Financial Services
+- Prepaid Cards
+- Investment Management
+- Trust Services
+- Fraud Prevention
+- Caregiving
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/true-link-domain-security.yml
 - type: Website
-  url: http://truelinkfinancial.com
+  url: https://www.truelinkfinancial.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
