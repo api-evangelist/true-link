@@ -45,7 +45,7 @@ tags:
 - Company
 - Insurtech
 - Fintech
-- Financial-Services
+- Financial Services
 - Prepaid Cards
 - Investment Management
 - Trust Services
@@ -61,6 +61,7 @@ tags_raw:
 - Trust Services
 - Fraud Prevention
 - Caregiving
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
